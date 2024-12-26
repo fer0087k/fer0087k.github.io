@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Formulário</title>
+  </head>
   <body>
-    <h2>Primeiro Site</h2>
+    <h2>Preencha seus dados</h2>
+    <form action="subpasta/pagina2.html" method="GET">
+      <label for="Fname">Primeiro Nome:</label><br>
+      <input type="text" id="Fname" name="Fname" placeholder="Insira seu primeiro nome"><br><br>
 
-   <form action="subpasta/pagina2.html" method="GET">
-      <label for="fname">Primeiro nome:</label><br>
-      <input type="text" id="fname" name="fname" value="Insira o primeiro nome"><br><br>
+      <label for="Lname">Sobrenome:</label><br>
+      <input type="text" id="Lname" name="Lname" placeholder="Insira seu sobrenome"><br><br>
 
-      <label for="lname">Sobrenome:</label><br>
-      <input type="text" id="lname" name="lname" value="Insira o sobrenome"><br><br>
-
-      <input type="submit" value="Confirmar">
+      <input type="submit" value="Enviar">
     </form>
   </body>
 </html>
